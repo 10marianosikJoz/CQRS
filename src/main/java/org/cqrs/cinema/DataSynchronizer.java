@@ -6,7 +6,7 @@ class DataSynchronizer {
 
     private DataSynchronizer() {}
 
-    static void addFilmReviews(String title, Set<Review> reviews) {
+    static void addMovieReviews(String title, Set<Review> reviews) {
         CinemaReadRepository.reviewsStore.put(title, reviews);
     }
 

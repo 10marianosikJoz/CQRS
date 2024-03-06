@@ -1,5 +1,6 @@
 package org.cqrs.cinema;
 
+import org.cqrs.cinema.projection.MovieProjection;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

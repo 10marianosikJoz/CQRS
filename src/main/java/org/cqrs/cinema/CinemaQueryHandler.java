@@ -1,5 +1,10 @@
 package org.cqrs.cinema;
 
+import org.cqrs.cinema.projection.ActorProjection;
+import org.cqrs.cinema.projection.CinemaProjection;
+import org.cqrs.cinema.projection.MovieProjection;
+import org.cqrs.cinema.projection.ReviewProjection;
+
 import java.util.Set;
 import java.util.stream.Collectors;
 
